@@ -1,12 +1,12 @@
 [tooling]
-172.31.68.99
-172.31.91.142
+172.31.68.99 ansible_ssh_user='ec2-user'
+172.31.91.142 ansible_ssh_user='ec2-user'
 
 [todo]
-172.31.86.101
+172.31.86.101 ansible_ssh_user='ubuntu'
 
 [nginx]
-<SIT-Nginx-Private-IP-Address>
+34.200.253.126 ansible _ssh_user='ec2-user'
 
 [db:vars]
 ansible_user=ec2-user
